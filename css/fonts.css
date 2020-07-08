@@ -1,0 +1,32 @@
+@font-face {
+    font-family: OswaldBold ;/* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-Bold.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OswaldExtraLight; /* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-ExtraLight.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OswaldLight; /* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OswaldMedium; /* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-Medium.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: OswaldRegular; /* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OswaldSemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/otf/Oswald-SemiBold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GothamPro; /* Гарнитура шрифта */
+    src: url(../fonts/gotham/GothamPro.ttf); /* Путь к файлу со шрифтом */
+}

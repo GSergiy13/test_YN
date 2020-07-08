@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq)return;
+			n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq)f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '2228384410511983');
+		fbq('track', 'PageView');
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+		var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-P8258KR');</script> <!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72333037-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-72333037-1');
+	</script>
+	<meta charset="utf-8">
+	<title>Тест: Умеете ли вы тратить деньги?<</title>
+	<meta name="description" content="">
+	<link rel="icon" href="https://dev.yulianovikova.com/wp-content/uploads/2019/11/cropped-6456-32x32.png" sizes="32x32" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo-h">
+						<img src="img/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-md-8">
+					<h1 class="title-pro"><span>ТЕСТ:</span> Умеете ли вы тратить деньги?</h1>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				
+				<div  id="regForm">
+					
+
+					<form id="form-res" action="">
+
+						<div class="tab">
+							<div class="namber">
+								1/<span>10</span>
+							</div>
+							<p>
+								Вы нередко злитесь на себя за то, что купили ненужную вещь?
+							</p>
+							<div class="wight ">
+								<div class="int-lab">
+									<input type="radio" id="male" name="gender" value="1">
+									<label for="male">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female" name="gender" value="0">
+									<label for="female">Нет</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								2/<span>10</span>
+							</div>
+							<p>
+								При этом вы никогда не сдаете обратно то, что купили?
+
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male1" name="gender1" value="1">
+									<label for="male1">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female1" name="gender1" value="0">
+									<label for="female1">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								3/<span>10</span>
+							</div>
+							<p>
+								Нередко вы используете поход в магазин для поднятия настроения?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male2" name="gender2" value="1">
+									<label for="male2">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female2" name="gender2" value="0">
+									<label for="female2">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								4/<span>10</span>
+							</div>
+							<p>
+								В магазине у вас настолько разбегаются глаза, что вы не знаете, что вам купить, и часто делаете покупки наобум?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male3" name="gender3" value="1">
+									<label for="male3">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female3" name="gender3" value="0">
+									<label for="female3">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								5/<span>10</span>
+							</div>
+							<p>
+								Вы уже неоднократно давали себе слово, что больше не будете делать незапланированные покупки, и все же нарушаете его?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male4" name="gender4" value="1">
+									<label for="male4">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female4" name="gender4" value="0">
+									<label for="female4">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="tab">
+							<div class="namber">
+								6/<span>10</span>
+							</div>
+							<p>
+								Бывали случаи, что вы тратили чужие деньги, потому что не могли остановиться?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male5" name="gender5" value="1">
+									<label for="male5">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female5" name="gender5" value="0">
+									<label for="female5">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								7/<span>10</span>
+							</div>
+							<p>
+								Когда у вас много свободного времени и (или) просто скучно, вы прежде всего отправляетесь делать покупки?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male6" name="gender6" value="1">
+									<label for="male6">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female6" name="gender6" value="0">
+									<label for="female6">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								8/<span>10</span>
+							</div>
+							<p>
+								Часто ли бывает, что вы приходите в магазин купить одно, а вместо этого приобретаете совсем другое (и потом эта вещь оказывается ненужной)?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male7" name="gender7" value="1">
+									<label for="male7">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female7" name="gender7" value="0">
+									<label for="female7">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								9/<span>10</span>
+							</div>
+							<p>
+								Идя по улице, вы нередко заходите практически в каждый магазинчик, и это обычно выливается в трату денег?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male8" name="gender8" value="1">
+									<label for="male8">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female8" name="gender8" value="0">
+									<label for="female8">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab">
+							<div class="namber">
+								10/<span>10</span>
+							</div>
+							<p>
+								Часто ли вас мучает чувство вины, что вы снова потратили на себя слишком много?
+							</p>
+							<div class="wight">
+								<div class="int-lab">
+									<input type="radio" id="male9" name="gender9" value="1">
+									<label for="male9">Да</label>
+								</div>
+								<div class="int-lab">
+									<input type="radio" id="female9" name="gender9" value="0">
+									<label for="female9">Нет</label>
+								</div>
+							</div>
+
+						</div>
+
+
+						<div style="overflow:auto;">
+							<div style="float:right;">
+								<button type="button" id="prevBtn" onclick="nextPrev(-1)">Назад</button>
+								<button type="button" id="nextBtn" onclick="nextPrev(1)">Далеe</button>
+							</div>
+						</div>
+
+						<hr>
+
+						<div id="myProgress" style="text-align:center;margin-top:40px;">
+							<div id="myBar">
+							</div>
+						</div>
+
+					</form>
+					<div class="resl-item">
+						<div class="res-1">
+							<p>
+								Ты действительно понимаешь, как правильно тратить деньги. Это очень ценно; и абсолютно точно можно сказать одно — ты входишь в тот малый процент людей, от кого деньги не уходят навсегда, а возвращаются обратно. 
+
+							</p>
+							<p>
+								А значит, вопрос только в том, чтобы усилить те навыки, которые у тебя уже есть, и увеличить свой доход. 
+								е свою беспомощность, то это происходит крайне редко. Вас можно поздравить! 
+							</p>
+							<hr>
+							<form method="post" action="https://yulianovikova.e-autopay.com/buy/save_order_data.php" name="order_form" target="_blank" onSubmit="return EAcheckForm(this);">
+								<h1 class="res-h1">
+									Узнай, как это сделать на курсе <span>«Мои отношения с деньгами».</span> <br>
+									Приходи и прокачай свой <span>«денежный ресурс»</span> до состояния <span>«много и больше».</span> <br>
+
+									<span>Прояви свои навыки уже сейчас — инвестируй правильно!</span> <br>
+									После старта курса цена будет дороже.
+								</h1>
+								<input size="1" type="text" name="name" value="" id="form-field-name"  placeholder="Имя" required>				
+								<input size="1" type="email" name="email" value="" id="form-field-email" placeholder="Email" required>				
+								<input size="1" type="text" name="phone" id="phone" value="" placeholder="Телефон" required>		
+								<script type="text/javascript">
+									$(function($){
+										$("#phone").mask("+99(999)999999?9");
+									});
+								</script>		
+								<input type="hidden" name="form_charset" id="form_charset" value="">
+								<input type="hidden" name="tovar_id" value="455306">
+								<input type="hidden" name="form_id" value="40601">
+								<input type="hidden" name="additional_field1"  value="http://yulianovikova.com/tratit_dengi_test/" />
+								<input type="hidden" name="order_page_referer" id="order_page_referer" value="http://yulianovikova.com/tratit_dengi_test/" />
+								<button type="submit">Хочу на курс</button>
+							</form>
+
+
+
+						</div>
+						<div class="res-2">
+							<p>
+								Судя по твоим ответам — у тебя есть склонность к «несанкционированным» покупкам. 
+								Возьми на заметку принцип — «куплю, но не сейчас». Если очень хочется что-то купить — подожди пару дней, прежде чем это сделать. Этот «тайм-аут» поможет увидеть и понять — что действительно «жизненно необходимо», а что — просто сиюсекундный порыв и слив денег в никуда.
+							</p>
+							<p>
+								Ругать себя за «транжирство» — не самая лучшая идея. Вопрос не запретах, а в том, чтобы понимать законы стабильного благосостояния и следовать им.
+							</p>
+							<hr>
+							<form method="post" action="https://yulianovikova.e-autopay.com/buy/save_order_data.php" name="order_form" target="_blank" onSubmit="return EAcheckForm(this);">
+								<h1 class="res-h1">
+
+									Узнай все о правилах <span>«денежной системы»</span> на курсе <span>«Мои отношения с деньгами»</span>. <br>
+									Приходи и научись правильно расходовать свои финансы, чтобы принимать, а не отталкивать их. <br>
+
+									<span>Начни прокачивать свои навыки уже сейчас — инвестируй правильно!</span> <br>
+									После старта курса цена будет дороже.
+
+								</h1>
+								<input size="1" type="text" name="name" value="" id="form-field-name"  placeholder="Имя" required>				
+								<input size="1" type="email" name="email" value="" id="form-field-email" placeholder="Email" required>				
+								<input size="1" type="text" name="phone" id="phone2" value="" placeholder="Телефон" required>		
+								<script type="text/javascript">
+									$(function($){
+										$("#phone2").mask("+99(999)999999?9");
+									});
+								</script>		
+								<input type="hidden" name="form_charset" id="form_charset" value="">
+								<input type="hidden" name="tovar_id" value="455306">
+								<input type="hidden" name="form_id" value="40601">
+								<input type="hidden" name="additional_field1"  value="http://yulianovikova.com/tratit_dengi_test/" />
+								<input type="hidden" name="order_page_referer" id="order_page_referer" value="http://yulianovikova.com/tratit_dengi_test/" />
+								<button type="submit">Хочу на курс</button>
+							</form>
+						</div>
+						<div class="res-3">
+							<p>
+								Похоже, все довольно запущено и нужно срочно принимать меры. И первое, что надо сделать — перестать ходить в магазин в день зарплаты и научиться не выходить за рамки списка того, что необходимо купить.
+
+							</p>
+							<p>
+								Можно практически со 100%-й точностью сказать, что ты не понаслышке знаешь, что такое «финансовые скачки», когда деньги внезапно уходят, практически не задерживаясь в руках.
+							</p>
+							<hr>
+							<form method="post" action="https://yulianovikova.e-autopay.com/buy/save_order_data.php" name="order_form" target="_blank" onSubmit="return EAcheckForm(this);">
+								<h1 class="res-h1">
+									Узнай, как прекратить этот <span>«финансовый бардак»</span> на курсе <span>«Мои отношения с деньгами»</span>. <br>
+									Приходи и научись правильно расходовать свои финансы и управлять денежным потоком, чтобы принимать, а не отталкивать их. <br>
+
+									<span>Начни прокачивать свои навыки уже сейчас — инвестируй правильно!</span>
+									После старта курса цена будет дороже. <br>
+
+								</h1>
+								<input size="1" type="text" name="name" value="" id="form-field-name"  placeholder="Имя" required>				
+								<input size="1" type="email" name="email" value="" id="form-field-email" placeholder="Email" required>				
+								<input size="1" type="text" name="phone" id="phone3" value="" placeholder="Телефон" required>		
+								<script type="text/javascript">
+									$(function($){
+										$("#phone3").mask("+99(999)999999?9");
+									});
+								</script>		
+								<input type="hidden" name="form_charset" id="form_charset" value="">
+								<input type="hidden" name="tovar_id" value="455306">
+								<input type="hidden" name="form_id" value="40601">
+								<input type="hidden" name="additional_field1"  value="http://yulianovikova.com/tratit_dengi_test/" />
+								<input type="hidden" name="order_page_referer" id="order_page_referer" value="http://yulianovikova.com/tratit_dengi_test/" />
+								<button type="submit">Хочу на курс</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="logo_footer">
+						<img src="img/logo_footer.png" alt="logof">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<ul class="contacts-f">
+						<li>RU +7(499) 322 78 11</li>
+						<li>UA +38(089) 420 14 89</li>
+						<li>email: info@yulianovikova.com</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<div class="over-fa-icons-flex">
+						<a target="_blank" href="https://facebook.com/yulianovikovaschool">
+							<div class="inline-footer facebook">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+						</a>
+						<a target="_blank" href="https://vk.com/yulianovikovaschool">
+							<div class="inline-footer vk">
+								<i class="fab fa-vk "></i>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.youtube.com/channel/UCGRZUkC1_3oS6zCDDEtS3Dg">
+							<div class="inline-footer yt">
+								<i class="fab fa-youtube "></i>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.instagram.com/yulianovikova_com/">
+							<div class="inline-footer inst">
+								<i class="fab fa-instagram "></i>
+							</div>
+						</a>
+						<a target="_blank" href="skype:service-novikova?call">
+							<div class="inline-footer skype">
+								<i class="fab fa-skype "></i>
+							</div>
+						</a>
+						<a target="_blank" href="viber://pa?chatURI=so2018">
+							<div class="inline-footer viber">
+								<i class="fab fa-viber "></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Здесь пишем код -->
+
+	<div class="hidden">
+
+	</div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
